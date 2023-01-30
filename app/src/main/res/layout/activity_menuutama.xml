@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuutama"
+    android:orientation="vertical"
+    android:background="#964B00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="150dp"
+            android:background="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/cafe1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/selagidingin"/>
+
+            <ImageButton
+                android:id="@+id/cafe2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/literetu"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/cafe3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/dyopo"/>
+
+            <ImageButton
+                android:id="@+id/cafe4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/janjijiwa"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="-10dp">
+
+            <ImageButton
+                android:id="@+id/cafe5"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/lainhati"/>
+
+            <ImageButton
+                android:id="@+id/cafe6"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/serupa"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="-10dp">
+
+            <ImageButton
+                android:id="@+id/cafe7"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/pickcup"/>
+
+            <ImageButton
+                android:id="@+id/cafe8"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/kawansejati"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

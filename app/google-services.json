@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363137838389",
+    "project_id": "incasoq",
+    "storage_bucket": "incasoq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363137838389:android:ad937bc04766f8bc20307c",
+        "android_client_info": {
+          "package_name": "com.example.incasoq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363137838389-q93onkuca4knu3d5m62ce0iqs8u2b0kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoOOAwuAnacfXg4V4B8Lr8PKRRuIdSees"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363137838389-q93onkuca4knu3d5m62ce0iqs8u2b0kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
